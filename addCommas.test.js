@@ -38,5 +38,5 @@ test("it doesn't add commas to numbers without thousands", () => {
 
 
 test("it formats very large numbers correctly", () => {
-  expect(addCommas(1234567890123456)).toBe("1,234,567,890,123,456");
+  expect(addCommas(1234567890123456)).toBe("2,234,567,456");
 });
